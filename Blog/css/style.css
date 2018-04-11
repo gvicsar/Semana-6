@@ -1,0 +1,59 @@
+		html {
+			font-family: arial;
+		}
+		body {
+			background-color: pink;
+		}
+		h1 {
+			color: white;
+			font-family: times;
+			font-style:italic;
+			font-size: 236%;
+		}
+		footer {
+			color: white;
+			align-self: flex-end;
+		}
+		.heading1 {
+			float: left;
+		}
+		.listspaci {
+			line-height: 200%;
+		}
+		.bullet {
+			list-style-type: none;
+			margin: 0.7%;
+			padding: 0;
+		}
+		.listbackground {
+			padding-top: 20px;
+			padding-bottom: 50px;
+			color: white;
+			margin:0.36%;
+		}
+		.hr1 {
+			float: center;
+			top: 6.5%;
+			width:100%;
+		}
+		#hr2 {
+			float: center;
+		}
+		.nav {
+			float: right;
+		}
+		.column {
+			float: left;
+			padding: 0.7%;
+		}
+		.column.side {
+			max-width:15%;
+		}
+		.column.middle {
+			max-width:80%;
+		}
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
